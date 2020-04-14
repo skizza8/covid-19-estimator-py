@@ -1,7 +1,7 @@
 from flask import Flask, request, Response, jsonify, make_response, g
 from flask_restful import Resource, Api
 from json import dumps, loads
-from logging_service import Logger
+from src.logging_service import Logger
 import datetime
 from functools import wraps
 import math

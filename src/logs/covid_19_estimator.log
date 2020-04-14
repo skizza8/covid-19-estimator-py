@@ -280,3 +280,4 @@
 2020-04-14 08:41:38,445 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
 2020-04-14 08:41:38,446 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06	ms
 2020-04-14 08:41:38,446 - INFO - 127.0.0.1 - - [14/Apr/2020 08:41:38] "[37mGET /api/v1/on-covid-19/logs HTTP/1.1[0m" 200 -
+2020-04-14 09:38:35,217 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\src\\run.py', reloading

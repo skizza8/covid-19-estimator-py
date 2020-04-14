@@ -1,5 +1,6 @@
-from estimator import app
-from logging_service import Logger
+from src.estimator import app
+from src.logging_service import Logger
+
 
 
 the_logger = Logger()

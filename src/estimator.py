@@ -433,7 +433,7 @@ def convert_json_to_xml(json_data):
 
 
 def estimator(input_data):
-    try:
+    
                 data = loads(input_data)
 
                 #print(data)
@@ -523,10 +523,8 @@ def estimator(input_data):
                 print(severe_impact)
 
 
-                output = dumps({'data': data, 'impact':impact, 'severeImpact':severe_impact})
+                output = {'data': data, 'impact':impact, 'severeImpact':severe_impact}
                 return output
 
                 
-    except Exception as ex:
-      print('Request error: {0} '.format(ex))
-      return dumps({"error":"An error occured during the request"})
+    

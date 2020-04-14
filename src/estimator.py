@@ -434,17 +434,19 @@ def convert_json_to_xml(json_data):
 
 def estimator(input_data):
     try:
-                data = input_data.get_json()
+                data = loads(input_data)
+
+                #print(data)
 
                 # To check if the username and password keys have been sent in the request body
 
                 if data is None:
-                    return jsonify({'message': 'No data has been submitted'})
+                    return dumps({'message': 'No data has been submitted'})
                 '''
                   check and see if any of the data is missing in the submitted request
                 '''
                 if data['periodType'] not in ['days','weeks','months'] :
-                    return jsonify({'message': 'Period type chosen is wrong; use days, weeks or months'})
+                    return dumps({'message': 'Period type chosen is wrong; use days, weeks or months'})
 
 
                 '''
@@ -455,8 +457,8 @@ def estimator(input_data):
                 '''
 
                 impact_currently_infected, severe_impact_currently_infected = currently_infected(data['reportedCases'])
-                the_logger.log_information('impact_currently_infected: {0}'.format(impact_currently_infected))
-                the_logger.log_information('severe_impact_currently_infected: {0}'.format(severe_impact_currently_infected))
+                print('impact_currently_infected: {0}'.format(impact_currently_infected))
+                print('severe_impact_currently_infected: {0}'.format(severe_impact_currently_infected))
 
                 '''
                 Challenge 1, Determine the probable infections over a period of time. This is obtained using the current infections
@@ -504,27 +506,27 @@ def estimator(input_data):
                 '''
                 Create json objects for both the results of impact and severe impact
                 '''
-                impact = jsonify({'currentlyInfected':impact_currently_infected,'infectionsByRequestedTime':impact_infections_by_requested_time,'severeCasesByRequestedTime':impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':impact_available_beds, 'casesForICUByRequestedTime':impact_need_ICU, 'casesForVentilatorsByRequestedTime':impact_need_ventilators, 'dollarsInFlight':impact_impact_lost_daily})
-                the_logger.log_information(impact.get_json())
+                impact = dumps({'currentlyInfected':impact_currently_infected,'infectionsByRequestedTime':impact_infections_by_requested_time,'severeCasesByRequestedTime':impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':impact_available_beds, 'casesForICUByRequestedTime':impact_need_ICU, 'casesForVentilatorsByRequestedTime':impact_need_ventilators, 'dollarsInFlight':impact_impact_lost_daily})
+                print(impact)
 
-                severe_impact = jsonify({'currentlyInfected':severe_impact_currently_infected,'infectionsByRequestedTime':severe_impact_infections_by_requested_time,'severeCasesByRequestedTime':severe_impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':severe_impact_available_beds, 'casesForICUByRequestedTime':severe_impact_need_ICU, 'casesForVentilatorsByRequestedTime':severe_impact_need_ventilators, 'dollarsInFlight':severe_impact_impact_lost_daily})
-                the_logger.log_information(severe_impact.get_json())
+                severe_impact = dumps({'currentlyInfected':severe_impact_currently_infected,'infectionsByRequestedTime':severe_impact_infections_by_requested_time,'severeCasesByRequestedTime':severe_impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':severe_impact_available_beds, 'casesForICUByRequestedTime':severe_impact_need_ICU, 'casesForVentilatorsByRequestedTime':severe_impact_need_ventilators, 'dollarsInFlight':severe_impact_impact_lost_daily})
+                print(severe_impact)
 
 
                 '''
                 Create json objects for both the results of impact and severe impact
                 '''
-                impact = jsonify({'currentlyInfected':impact_currently_infected,'infectionsByRequestedTime':impact_infections_by_requested_time,'severeCasesByRequestedTime':impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':impact_available_beds, 'casesForICUByRequestedTime':impact_need_ICU, 'casesForVentilatorsByRequestedTime':impact_need_ventilators, 'dollarsInFlight':impact_impact_lost_daily})
-                the_logger.log_information(impact.get_json())
+                impact = dumps({'currentlyInfected':impact_currently_infected,'infectionsByRequestedTime':impact_infections_by_requested_time,'severeCasesByRequestedTime':impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':impact_available_beds, 'casesForICUByRequestedTime':impact_need_ICU, 'casesForVentilatorsByRequestedTime':impact_need_ventilators, 'dollarsInFlight':impact_impact_lost_daily})
+                print(impact)
 
-                severe_impact = jsonify({'currentlyInfected':severe_impact_currently_infected,'infectionsByRequestedTime':severe_impact_infections_by_requested_time,'severeCasesByRequestedTime':severe_impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':severe_impact_available_beds, 'casesForICUByRequestedTime':severe_impact_need_ICU, 'casesForVentilatorsByRequestedTime':severe_impact_need_ventilators, 'dollarsInFlight':severe_impact_impact_lost_daily})
-                the_logger.log_information(severe_impact.get_json())
+                severe_impact = dumps({'currentlyInfected':severe_impact_currently_infected,'infectionsByRequestedTime':severe_impact_infections_by_requested_time,'severeCasesByRequestedTime':severe_impact_severe_cases_require_hospilisation, 'hospitalBedsByRequestedTime':severe_impact_available_beds, 'casesForICUByRequestedTime':severe_impact_need_ICU, 'casesForVentilatorsByRequestedTime':severe_impact_need_ventilators, 'dollarsInFlight':severe_impact_impact_lost_daily})
+                print(severe_impact)
 
 
-                output = jsonify({'data': data, 'impact':impact.get_json(), 'severeImpact':severe_impact.get_json()})
-                return output.get_json()
+                output = dumps({'data': data, 'impact':impact, 'severeImpact':severe_impact})
+                return output
 
                 
     except Exception as ex:
-      the_logger.log_error('Request error: {0} '.format(ex))
-      return jsonify({"error":"An error occured during the request"})
+      print('Request error: {0} '.format(ex))
+      return dumps({"error":"An error occured during the request"})

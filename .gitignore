@@ -9,9 +9,6 @@ setup.cfg
 # node modules
 node_modules/
 
-# tests
-audits/
-
 # venv
 .venv/
 

@@ -60,7 +60,7 @@ def log_request(response):
     now = time.time()
     duration = round(now - g.start, 2)
 
-    the_log_text = '{0}\t\t{1}\t\t{2}\t\t{3}'.format(method,path,status,duration)
+    the_log_text = '{0}\t\t{1}\t\t{2}\t\t{3}\tms'.format(method,path,status,duration)
 
     the_logger.log_information('Logger for requests\t\t{0}'.format(the_log_text))
 

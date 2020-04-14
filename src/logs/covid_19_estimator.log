@@ -1,0 +1,753 @@
+2020-04-14 22:52:15,469 - ERROR - Request error: the JSON object must be str, bytes or bytearray, not dict 
+2020-04-14 22:52:15,469 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 22:52:15,481 - INFO - 127.0.0.1 - - [14/Apr/2020 22:52:15] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 22:52:41,697 - ERROR - Request error: the JSON object must be str, bytes or bytearray, not dict 
+2020-04-14 22:52:41,697 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 22:52:41,705 - INFO - 127.0.0.1 - - [14/Apr/2020 22:52:41] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 22:54:34,128 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 22:54:41,651 - ERROR - Request error: the JSON object must be str, bytes or bytearray, not dict 
+2020-04-14 22:54:41,651 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 22:54:41,655 - INFO - 127.0.0.1 - - [14/Apr/2020 22:54:41] "[31m[1mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 400 -
+2020-04-14 22:54:50,118 - ERROR - Request error: the JSON object must be str, bytes or bytearray, not dict 
+2020-04-14 22:54:50,118 - INFO - Logger for requests		POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 22:54:50,126 - INFO - 127.0.0.1 - - [14/Apr/2020 22:54:50] "[31m[1mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 400 -
+2020-04-14 23:05:24,738 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\src\\estimator.py', reloading
+2020-04-14 23:05:31,951 - INFO - impact_currently_infected: 6740
+2020-04-14 23:05:31,951 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:05:31,951 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:05:31,951 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:05:31,952 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:05:31,952 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:05:31,952 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:05:31,956 - INFO - 127.0.0.1 - - [14/Apr/2020 23:05:31] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:05:43,210 - INFO - impact_currently_infected: 6740
+2020-04-14 23:05:43,210 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:05:43,210 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:05:43,210 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:05:43,210 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:05:43,210 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:05:43,211 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:05:43,213 - INFO - 127.0.0.1 - - [14/Apr/2020 23:05:43] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 23:09:41,750 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:09:49,157 - INFO - impact_currently_infected: 6740
+2020-04-14 23:09:49,158 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:09:49,158 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:09:49,158 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:09:49,158 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:09:49,158 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:09:49,158 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:09:49,163 - INFO - 127.0.0.1 - - [14/Apr/2020 23:09:49] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:10:08,235 - INFO - impact_currently_infected: 6740
+2020-04-14 23:10:08,235 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:10:08,235 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:10:08,235 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:10:08,236 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:10:08,236 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:10:08,236 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:10:08,238 - INFO - 127.0.0.1 - - [14/Apr/2020 23:10:08] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 23:10:45,351 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:11:49,083 - INFO - impact_currently_infected: 6740
+2020-04-14 23:11:49,084 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:11:49,084 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:11:49,084 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:11:49,085 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:11:49,085 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:11:49,085 - ERROR - Request error: Object of type Response is not JSON serializable 
+2020-04-14 23:11:49,086 - INFO - Logger for requests		POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 23:11:49,095 - INFO - 127.0.0.1 - - [14/Apr/2020 23:11:49] "[31m[1mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 400 -
+2020-04-14 23:13:31,403 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:13:47,493 - INFO - impact_currently_infected: 6740
+2020-04-14 23:13:47,493 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:13:47,494 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:13:47,494 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:13:47,494 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:13:47,494 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:13:47,495 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:13:48,133 - INFO - 127.0.0.1 - - [14/Apr/2020 23:13:48] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 23:13:56,253 - INFO - impact_currently_infected: 6740
+2020-04-14 23:13:56,253 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:13:56,253 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:13:56,253 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:13:56,253 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:13:56,254 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:13:56,254 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:13:56,271 - INFO - 127.0.0.1 - - [14/Apr/2020 23:13:56] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:14:54,272 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\src\\estimator.py', reloading
+2020-04-14 23:15:00,914 - INFO - impact_currently_infected: 6740
+2020-04-14 23:15:00,914 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:15:00,914 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:15:00,914 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:15:00,914 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:15:00,914 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:15:00,914 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:15:00,923 - INFO - 127.0.0.1 - - [14/Apr/2020 23:15:00] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:15:25,001 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:16:35,603 - INFO - impact_currently_infected: 6740
+2020-04-14 23:16:35,603 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:16:35,603 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:16:35,603 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:16:35,603 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:16:35,603 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:16:35,604 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:16:35,607 - INFO - 127.0.0.1 - - [14/Apr/2020 23:16:35] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:17:01,041 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:17:10,337 - INFO - impact_currently_infected: 6740
+2020-04-14 23:17:10,337 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:17:10,337 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:17:10,337 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:17:10,337 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:17:10,338 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:17:10,338 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:17:10,346 - INFO - 127.0.0.1 - - [14/Apr/2020 23:17:10] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:17:25,040 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:17:30,464 - INFO - impact_currently_infected: 6740
+2020-04-14 23:17:30,464 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:17:30,464 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:17:30,464 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:17:30,464 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:17:30,465 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:17:30,465 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:17:30,468 - INFO - 127.0.0.1 - - [14/Apr/2020 23:17:30] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:19:48,603 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\src\\estimator.py', reloading
+2020-04-14 23:19:55,567 - INFO - impact_currently_infected: 6740
+2020-04-14 23:19:55,567 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:19:55,567 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:19:55,567 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:19:55,567 - INFO - {"currentlyInfected": 6740, "infectionsByRequestedTime": 13480, "severeCasesByRequestedTime": 2022, "hospitalBedsByRequestedTime": 1478, "casesForICUByRequestedTime": 101, "casesForVentilatorsByRequestedTime": 40, "dollarsInFlight": 3594}
+2020-04-14 23:19:55,567 - INFO - {"currentlyInfected": 33700, "infectionsByRequestedTime": 67400, "severeCasesByRequestedTime": 10110, "hospitalBedsByRequestedTime": -6610, "casesForICUByRequestedTime": 505, "casesForVentilatorsByRequestedTime": 202, "dollarsInFlight": 17973}
+2020-04-14 23:19:55,568 - ERROR - Request error: 'str' object has no attribute 'get_json' 
+2020-04-14 23:19:55,568 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 23:19:55,571 - INFO - 127.0.0.1 - - [14/Apr/2020 23:19:55] "[31m[1mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 400 -
+2020-04-14 23:20:37,746 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:21:55,967 - INFO - impact_currently_infected: 6740
+2020-04-14 23:21:55,967 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:21:55,967 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:21:55,967 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:21:55,968 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:21:55,968 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:21:55,968 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:21:55,972 - INFO - 127.0.0.1 - - [14/Apr/2020 23:21:55] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:22:06,140 - INFO - impact_currently_infected: 6740
+2020-04-14 23:22:06,140 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:22:06,141 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:22:06,141 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:22:06,142 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:22:06,142 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:22:06,142 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:22:06,145 - INFO - 127.0.0.1 - - [14/Apr/2020 23:22:06] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 23:26:51,305 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:30:52,985 - INFO - impact_currently_infected: 6740
+2020-04-14 23:30:52,985 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:30:52,986 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:30:52,986 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:30:52,986 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:30:52,986 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:30:52,987 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:30:52,990 - INFO - 127.0.0.1 - - [14/Apr/2020 23:30:52] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -
+2020-04-14 23:31:00,128 - INFO - Logger for requests		POST		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:31:00,131 - INFO - 127.0.0.1 - - [14/Apr/2020 23:31:00] "[31m[1mPOST /api/v1/on-covid-19/xml HTTP/1.1[0m" 405 -
+2020-04-14 23:31:10,361 - INFO - Logger for requests		GET		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:31:10,363 - INFO - 127.0.0.1 - - [14/Apr/2020 23:31:10] "[31m[1mGET /api/v1/on-covid-19/xml HTTP/1.1[0m" 405 -
+2020-04-14 23:31:22,874 - INFO - impact_currently_infected: 6740
+2020-04-14 23:31:22,874 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 23:31:22,875 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:31:22,875 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:31:22,875 - INFO - <Response 261 bytes [200 OK]>
+2020-04-14 23:31:22,875 - INFO - <Response 266 bytes [200 OK]>
+2020-04-14 23:31:22,875 - INFO - Logger for requests		POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:31:22,877 - INFO - 127.0.0.1 - - [14/Apr/2020 23:31:22] "[37mPOST /api/v1/on-covid-19/json HTTP/1.1[0m" 200 -
+2020-04-14 23:32:15,142 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:32:27,307 - INFO - impact_currently_infected: 540
+2020-04-14 23:32:27,308 - INFO - severe_impact_currently_infected: 2700
+2020-04-14 23:32:27,308 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:32:27,308 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:32:27,309 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:32:27,309 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:32:27,309 - INFO - Inside dicttoxml(): type(obj) is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:27,310 - INFO - Inside convert(). obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:27,310 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:27,310 - INFO - Looping inside convert_dict(): key="data", val="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}", type(val)="dict"
+2020-04-14 23:32:27,310 - INFO - Inside make_valid_xml_name(). Testing key "data" with attr "{}"
+2020-04-14 23:32:27,310 - INFO - Inside key_is_valid_xml(). Testing "data"
+2020-04-14 23:32:27,350 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}"
+2020-04-14 23:32:27,350 - INFO - Looping inside convert_dict(): key="region", val="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}", type(val)="dict"
+2020-04-14 23:32:27,350 - INFO - Inside make_valid_xml_name(). Testing key "region" with attr "{}"
+2020-04-14 23:32:27,350 - INFO - Inside key_is_valid_xml(). Testing "region"
+2020-04-14 23:32:27,350 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}"
+2020-04-14 23:32:27,350 - INFO - Looping inside convert_dict(): key="name", val="Africa", type(val)="str"
+2020-04-14 23:32:27,350 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:32:27,350 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:32:27,351 - INFO - Inside convert_kv(): key="name", val="Africa", type(val) is: "str"
+2020-04-14 23:32:27,351 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:32:27,351 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:32:27,351 - INFO - Looping inside convert_dict(): key="avgAge", val="19.7", type(val)="float"
+2020-04-14 23:32:27,351 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:32:27,351 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:32:27,351 - INFO - Inside convert_kv(): key="avgAge", val="19.7", type(val) is: "float"
+2020-04-14 23:32:27,351 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:32:27,351 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:32:27,351 - INFO - Looping inside convert_dict(): key="avgDailyIncomeInUSD", val="1", type(val)="int"
+2020-04-14 23:32:27,351 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:32:27,351 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:32:27,352 - INFO - Inside convert_kv(): key="avgDailyIncomeInUSD", val="1", type(val) is: "int"
+2020-04-14 23:32:27,352 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:32:27,352 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:32:27,352 - INFO - Looping inside convert_dict(): key="avgDailyIncomePopulation", val="0.8", type(val)="float"
+2020-04-14 23:32:27,352 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:32:27,352 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:32:27,352 - INFO - Inside convert_kv(): key="avgDailyIncomePopulation", val="0.8", type(val) is: "float"
+2020-04-14 23:32:27,352 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:32:27,352 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:32:27,352 - INFO - Looping inside convert_dict(): key="periodType", val="days", type(val)="str"
+2020-04-14 23:32:27,352 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:32:27,352 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:32:27,352 - INFO - Inside convert_kv(): key="periodType", val="days", type(val) is: "str"
+2020-04-14 23:32:27,353 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:32:27,353 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:32:27,353 - INFO - Looping inside convert_dict(): key="timeToElapse", val="50", type(val)="int"
+2020-04-14 23:32:27,353 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:32:27,353 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:32:27,353 - INFO - Inside convert_kv(): key="timeToElapse", val="50", type(val) is: "int"
+2020-04-14 23:32:27,353 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:32:27,353 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:32:27,353 - INFO - Looping inside convert_dict(): key="reportedCases", val="54", type(val)="int"
+2020-04-14 23:32:27,353 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:32:27,353 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:32:27,354 - INFO - Inside convert_kv(): key="reportedCases", val="54", type(val) is: "int"
+2020-04-14 23:32:27,354 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:32:27,354 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:32:27,354 - INFO - Looping inside convert_dict(): key="population", val="47000000", type(val)="int"
+2020-04-14 23:32:27,354 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:32:27,354 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:32:27,354 - INFO - Inside convert_kv(): key="population", val="47000000", type(val) is: "int"
+2020-04-14 23:32:27,354 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:32:27,354 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:32:27,354 - INFO - Looping inside convert_dict(): key="totalHospitalBeds", val="500", type(val)="int"
+2020-04-14 23:32:27,355 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:32:27,355 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:32:27,355 - INFO - Inside convert_kv(): key="totalHospitalBeds", val="500", type(val) is: "int"
+2020-04-14 23:32:27,355 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:32:27,355 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:32:27,355 - INFO - Looping inside convert_dict(): key="impact", val="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}", type(val)="dict"
+2020-04-14 23:32:27,355 - INFO - Inside make_valid_xml_name(). Testing key "impact" with attr "{}"
+2020-04-14 23:32:27,355 - INFO - Inside key_is_valid_xml(). Testing "impact"
+2020-04-14 23:32:27,356 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}"
+2020-04-14 23:32:27,356 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="421329", type(val)="int"
+2020-04-14 23:32:27,356 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,356 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:27,356 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="421329", type(val) is: "int"
+2020-04-14 23:32:27,356 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,356 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:27,356 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="168531", type(val)="int"
+2020-04-14 23:32:27,356 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,356 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:27,357 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="168531", type(val) is: "int"
+2020-04-14 23:32:27,357 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,357 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:27,357 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="540", type(val)="int"
+2020-04-14 23:32:27,357 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:27,357 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:27,357 - INFO - Inside convert_kv(): key="currentlyInfected", val="540", type(val) is: "int"
+2020-04-14 23:32:27,357 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:27,357 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:27,357 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="898835", type(val)="int"
+2020-04-14 23:32:27,358 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:27,358 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:27,358 - INFO - Inside convert_kv(): key="dollarsInFlight", val="898835", type(val) is: "int"
+2020-04-14 23:32:27,358 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:27,358 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:27,358 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-8426410", type(val)="int"
+2020-04-14 23:32:27,358 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,358 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:27,358 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-8426410", type(val) is: "int"
+2020-04-14 23:32:27,358 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,358 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:27,359 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="56177234", type(val)="int"
+2020-04-14 23:32:27,359 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,359 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:27,359 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="56177234", type(val) is: "int"
+2020-04-14 23:32:27,359 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,359 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:27,359 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="8426585", type(val)="int"
+2020-04-14 23:32:27,359 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,359 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:27,359 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="8426585", type(val) is: "int"
+2020-04-14 23:32:27,359 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,359 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:27,360 - INFO - Looping inside convert_dict(): key="severeImpact", val="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}", type(val)="dict"
+2020-04-14 23:32:27,360 - INFO - Inside make_valid_xml_name(). Testing key "severeImpact" with attr "{}"
+2020-04-14 23:32:27,360 - INFO - Inside key_is_valid_xml(). Testing "severeImpact"
+2020-04-14 23:32:27,360 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}"
+2020-04-14 23:32:27,360 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="2106646", type(val)="int"
+2020-04-14 23:32:27,360 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,360 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:27,360 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="2106646", type(val) is: "int"
+2020-04-14 23:32:27,360 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,360 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:27,360 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="842658", type(val)="int"
+2020-04-14 23:32:27,360 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,360 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:27,361 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="842658", type(val) is: "int"
+2020-04-14 23:32:27,361 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,361 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:27,361 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="2700", type(val)="int"
+2020-04-14 23:32:27,361 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:27,361 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:27,361 - INFO - Inside convert_kv(): key="currentlyInfected", val="2700", type(val) is: "int"
+2020-04-14 23:32:27,361 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:27,361 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:27,361 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="4494178", type(val)="int"
+2020-04-14 23:32:27,362 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:27,362 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:27,362 - INFO - Inside convert_kv(): key="dollarsInFlight", val="4494178", type(val) is: "int"
+2020-04-14 23:32:27,362 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:27,362 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:27,362 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-42132750", type(val)="int"
+2020-04-14 23:32:27,362 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,362 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:27,362 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-42132750", type(val) is: "int"
+2020-04-14 23:32:27,362 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,362 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:27,363 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="280886171", type(val)="int"
+2020-04-14 23:32:27,363 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,363 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:27,363 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="280886171", type(val) is: "int"
+2020-04-14 23:32:27,363 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,363 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:27,363 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="42132925", type(val)="int"
+2020-04-14 23:32:27,363 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,363 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:27,363 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="42132925", type(val) is: "int"
+2020-04-14 23:32:27,363 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:27,363 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:27,364 - INFO - Logger for requests		GET		/api/v1/on-covid-19/xml		200		0.06	ms
+2020-04-14 23:32:27,367 - INFO - 127.0.0.1 - - [14/Apr/2020 23:32:27] "[37mGET /api/v1/on-covid-19/xml HTTP/1.1[0m" 200 -
+2020-04-14 23:32:55,557 - INFO - impact_currently_infected: 540
+2020-04-14 23:32:55,557 - INFO - severe_impact_currently_infected: 2700
+2020-04-14 23:32:55,557 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:32:55,557 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:32:55,558 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:32:55,558 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:32:55,558 - INFO - Inside dicttoxml(): type(obj) is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:55,558 - INFO - Inside convert(). obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:55,558 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:32:55,558 - INFO - Looping inside convert_dict(): key="data", val="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}", type(val)="dict"
+2020-04-14 23:32:55,558 - INFO - Inside make_valid_xml_name(). Testing key "data" with attr "{}"
+2020-04-14 23:32:55,558 - INFO - Inside key_is_valid_xml(). Testing "data"
+2020-04-14 23:32:55,559 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}"
+2020-04-14 23:32:55,559 - INFO - Looping inside convert_dict(): key="region", val="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}", type(val)="dict"
+2020-04-14 23:32:55,559 - INFO - Inside make_valid_xml_name(). Testing key "region" with attr "{}"
+2020-04-14 23:32:55,559 - INFO - Inside key_is_valid_xml(). Testing "region"
+2020-04-14 23:32:55,559 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}"
+2020-04-14 23:32:55,559 - INFO - Looping inside convert_dict(): key="name", val="Africa", type(val)="str"
+2020-04-14 23:32:55,559 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:32:55,559 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:32:55,559 - INFO - Inside convert_kv(): key="name", val="Africa", type(val) is: "str"
+2020-04-14 23:32:55,559 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:32:55,559 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:32:55,560 - INFO - Looping inside convert_dict(): key="avgAge", val="19.7", type(val)="float"
+2020-04-14 23:32:55,560 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:32:55,560 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:32:55,560 - INFO - Inside convert_kv(): key="avgAge", val="19.7", type(val) is: "float"
+2020-04-14 23:32:55,560 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:32:55,560 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:32:55,560 - INFO - Looping inside convert_dict(): key="avgDailyIncomeInUSD", val="1", type(val)="int"
+2020-04-14 23:32:55,560 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:32:55,560 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:32:55,560 - INFO - Inside convert_kv(): key="avgDailyIncomeInUSD", val="1", type(val) is: "int"
+2020-04-14 23:32:55,560 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:32:55,560 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:32:55,561 - INFO - Looping inside convert_dict(): key="avgDailyIncomePopulation", val="0.8", type(val)="float"
+2020-04-14 23:32:55,561 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:32:55,561 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:32:55,561 - INFO - Inside convert_kv(): key="avgDailyIncomePopulation", val="0.8", type(val) is: "float"
+2020-04-14 23:32:55,561 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:32:55,561 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:32:55,561 - INFO - Looping inside convert_dict(): key="periodType", val="days", type(val)="str"
+2020-04-14 23:32:55,561 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:32:55,561 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:32:55,561 - INFO - Inside convert_kv(): key="periodType", val="days", type(val) is: "str"
+2020-04-14 23:32:55,561 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:32:55,561 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:32:55,561 - INFO - Looping inside convert_dict(): key="timeToElapse", val="50", type(val)="int"
+2020-04-14 23:32:55,562 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:32:55,562 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:32:55,562 - INFO - Inside convert_kv(): key="timeToElapse", val="50", type(val) is: "int"
+2020-04-14 23:32:55,562 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:32:55,562 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:32:55,562 - INFO - Looping inside convert_dict(): key="reportedCases", val="54", type(val)="int"
+2020-04-14 23:32:55,562 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:32:55,562 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:32:55,562 - INFO - Inside convert_kv(): key="reportedCases", val="54", type(val) is: "int"
+2020-04-14 23:32:55,562 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:32:55,562 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:32:55,562 - INFO - Looping inside convert_dict(): key="population", val="47000000", type(val)="int"
+2020-04-14 23:32:55,562 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:32:55,563 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:32:55,563 - INFO - Inside convert_kv(): key="population", val="47000000", type(val) is: "int"
+2020-04-14 23:32:55,563 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:32:55,563 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:32:55,563 - INFO - Looping inside convert_dict(): key="totalHospitalBeds", val="500", type(val)="int"
+2020-04-14 23:32:55,563 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:32:55,563 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:32:55,563 - INFO - Inside convert_kv(): key="totalHospitalBeds", val="500", type(val) is: "int"
+2020-04-14 23:32:55,563 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:32:55,563 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:32:55,563 - INFO - Looping inside convert_dict(): key="impact", val="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}", type(val)="dict"
+2020-04-14 23:32:55,563 - INFO - Inside make_valid_xml_name(). Testing key "impact" with attr "{}"
+2020-04-14 23:32:55,563 - INFO - Inside key_is_valid_xml(). Testing "impact"
+2020-04-14 23:32:55,564 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}"
+2020-04-14 23:32:55,564 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="421329", type(val)="int"
+2020-04-14 23:32:55,564 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,564 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:55,564 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="421329", type(val) is: "int"
+2020-04-14 23:32:55,564 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,564 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:55,564 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="168531", type(val)="int"
+2020-04-14 23:32:55,564 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,564 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:55,564 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="168531", type(val) is: "int"
+2020-04-14 23:32:55,564 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,564 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:55,565 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="540", type(val)="int"
+2020-04-14 23:32:55,565 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:55,565 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:55,565 - INFO - Inside convert_kv(): key="currentlyInfected", val="540", type(val) is: "int"
+2020-04-14 23:32:55,565 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:55,565 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:55,565 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="898835", type(val)="int"
+2020-04-14 23:32:55,565 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:55,565 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:55,566 - INFO - Inside convert_kv(): key="dollarsInFlight", val="898835", type(val) is: "int"
+2020-04-14 23:32:55,566 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:55,566 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:55,566 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-8426410", type(val)="int"
+2020-04-14 23:32:55,566 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,566 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:55,566 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-8426410", type(val) is: "int"
+2020-04-14 23:32:55,566 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,566 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:55,567 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="56177234", type(val)="int"
+2020-04-14 23:32:55,567 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,567 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:55,567 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="56177234", type(val) is: "int"
+2020-04-14 23:32:55,567 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,567 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:55,567 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="8426585", type(val)="int"
+2020-04-14 23:32:55,567 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,567 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:55,567 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="8426585", type(val) is: "int"
+2020-04-14 23:32:55,567 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,567 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:55,568 - INFO - Looping inside convert_dict(): key="severeImpact", val="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}", type(val)="dict"
+2020-04-14 23:32:55,568 - INFO - Inside make_valid_xml_name(). Testing key "severeImpact" with attr "{}"
+2020-04-14 23:32:55,568 - INFO - Inside key_is_valid_xml(). Testing "severeImpact"
+2020-04-14 23:32:55,568 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}"
+2020-04-14 23:32:55,568 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="2106646", type(val)="int"
+2020-04-14 23:32:55,568 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,568 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:55,569 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="2106646", type(val) is: "int"
+2020-04-14 23:32:55,569 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,569 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:32:55,569 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="842658", type(val)="int"
+2020-04-14 23:32:55,569 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,569 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:55,569 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="842658", type(val) is: "int"
+2020-04-14 23:32:55,569 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,569 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:32:55,569 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="2700", type(val)="int"
+2020-04-14 23:32:55,569 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:55,569 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:55,570 - INFO - Inside convert_kv(): key="currentlyInfected", val="2700", type(val) is: "int"
+2020-04-14 23:32:55,570 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:32:55,570 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:32:55,570 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="4494178", type(val)="int"
+2020-04-14 23:32:55,570 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:55,570 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:55,570 - INFO - Inside convert_kv(): key="dollarsInFlight", val="4494178", type(val) is: "int"
+2020-04-14 23:32:55,570 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:32:55,570 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:32:55,570 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-42132750", type(val)="int"
+2020-04-14 23:32:55,570 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,570 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:55,571 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-42132750", type(val) is: "int"
+2020-04-14 23:32:55,571 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,571 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:32:55,571 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="280886171", type(val)="int"
+2020-04-14 23:32:55,571 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,571 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:55,571 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="280886171", type(val) is: "int"
+2020-04-14 23:32:55,571 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,571 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:32:55,571 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="42132925", type(val)="int"
+2020-04-14 23:32:55,571 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,571 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:55,571 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="42132925", type(val) is: "int"
+2020-04-14 23:32:55,572 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:32:55,572 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:32:55,572 - INFO - Logger for requests		POST		/api/v1/on-covid-19/xml		200		0.01	ms
+2020-04-14 23:32:55,574 - INFO - 127.0.0.1 - - [14/Apr/2020 23:32:55] "[37mPOST /api/v1/on-covid-19/xml HTTP/1.1[0m" 200 -
+2020-04-14 23:35:00,454 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\app.py', reloading
+2020-04-14 23:37:10,578 - INFO - impact_currently_infected: 540
+2020-04-14 23:37:10,578 - INFO - severe_impact_currently_infected: 2700
+2020-04-14 23:37:10,578 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:37:10,579 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:37:10,579 - INFO - <Response 279 bytes [200 OK]>
+2020-04-14 23:37:10,579 - INFO - <Response 285 bytes [200 OK]>
+2020-04-14 23:37:10,580 - INFO - Inside dicttoxml(): type(obj) is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:37:10,580 - INFO - Inside convert(). obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:37:10,580 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'data': {'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}, 'impact': {'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}, 'severeImpact': {'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}}"
+2020-04-14 23:37:10,581 - INFO - Looping inside convert_dict(): key="data", val="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}", type(val)="dict"
+2020-04-14 23:37:10,581 - INFO - Inside make_valid_xml_name(). Testing key "data" with attr "{}"
+2020-04-14 23:37:10,581 - INFO - Inside key_is_valid_xml(). Testing "data"
+2020-04-14 23:37:10,587 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'region': {'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}, 'periodType': 'days', 'timeToElapse': 50, 'reportedCases': 54, 'population': 47000000, 'totalHospitalBeds': 500}"
+2020-04-14 23:37:10,587 - INFO - Looping inside convert_dict(): key="region", val="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}", type(val)="dict"
+2020-04-14 23:37:10,587 - INFO - Inside make_valid_xml_name(). Testing key "region" with attr "{}"
+2020-04-14 23:37:10,587 - INFO - Inside key_is_valid_xml(). Testing "region"
+2020-04-14 23:37:10,587 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'name': 'Africa', 'avgAge': 19.7, 'avgDailyIncomeInUSD': 1, 'avgDailyIncomePopulation': 0.8}"
+2020-04-14 23:37:10,587 - INFO - Looping inside convert_dict(): key="name", val="Africa", type(val)="str"
+2020-04-14 23:37:10,588 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:37:10,588 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:37:10,588 - INFO - Inside convert_kv(): key="name", val="Africa", type(val) is: "str"
+2020-04-14 23:37:10,588 - INFO - Inside make_valid_xml_name(). Testing key "name" with attr "{}"
+2020-04-14 23:37:10,588 - INFO - Inside key_is_valid_xml(). Testing "name"
+2020-04-14 23:37:10,588 - INFO - Looping inside convert_dict(): key="avgAge", val="19.7", type(val)="float"
+2020-04-14 23:37:10,588 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:37:10,589 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:37:10,589 - INFO - Inside convert_kv(): key="avgAge", val="19.7", type(val) is: "float"
+2020-04-14 23:37:10,589 - INFO - Inside make_valid_xml_name(). Testing key "avgAge" with attr "{}"
+2020-04-14 23:37:10,589 - INFO - Inside key_is_valid_xml(). Testing "avgAge"
+2020-04-14 23:37:10,589 - INFO - Looping inside convert_dict(): key="avgDailyIncomeInUSD", val="1", type(val)="int"
+2020-04-14 23:37:10,589 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:37:10,589 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:37:10,590 - INFO - Inside convert_kv(): key="avgDailyIncomeInUSD", val="1", type(val) is: "int"
+2020-04-14 23:37:10,590 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomeInUSD" with attr "{}"
+2020-04-14 23:37:10,590 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomeInUSD"
+2020-04-14 23:37:10,590 - INFO - Looping inside convert_dict(): key="avgDailyIncomePopulation", val="0.8", type(val)="float"
+2020-04-14 23:37:10,590 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:37:10,590 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:37:10,591 - INFO - Inside convert_kv(): key="avgDailyIncomePopulation", val="0.8", type(val) is: "float"
+2020-04-14 23:37:10,591 - INFO - Inside make_valid_xml_name(). Testing key "avgDailyIncomePopulation" with attr "{}"
+2020-04-14 23:37:10,591 - INFO - Inside key_is_valid_xml(). Testing "avgDailyIncomePopulation"
+2020-04-14 23:37:10,591 - INFO - Looping inside convert_dict(): key="periodType", val="days", type(val)="str"
+2020-04-14 23:37:10,591 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:37:10,591 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:37:10,592 - INFO - Inside convert_kv(): key="periodType", val="days", type(val) is: "str"
+2020-04-14 23:37:10,592 - INFO - Inside make_valid_xml_name(). Testing key "periodType" with attr "{}"
+2020-04-14 23:37:10,592 - INFO - Inside key_is_valid_xml(). Testing "periodType"
+2020-04-14 23:37:10,592 - INFO - Looping inside convert_dict(): key="timeToElapse", val="50", type(val)="int"
+2020-04-14 23:37:10,592 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:37:10,592 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:37:10,592 - INFO - Inside convert_kv(): key="timeToElapse", val="50", type(val) is: "int"
+2020-04-14 23:37:10,592 - INFO - Inside make_valid_xml_name(). Testing key "timeToElapse" with attr "{}"
+2020-04-14 23:37:10,593 - INFO - Inside key_is_valid_xml(). Testing "timeToElapse"
+2020-04-14 23:37:10,593 - INFO - Looping inside convert_dict(): key="reportedCases", val="54", type(val)="int"
+2020-04-14 23:37:10,593 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:37:10,593 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:37:10,593 - INFO - Inside convert_kv(): key="reportedCases", val="54", type(val) is: "int"
+2020-04-14 23:37:10,593 - INFO - Inside make_valid_xml_name(). Testing key "reportedCases" with attr "{}"
+2020-04-14 23:37:10,593 - INFO - Inside key_is_valid_xml(). Testing "reportedCases"
+2020-04-14 23:37:10,594 - INFO - Looping inside convert_dict(): key="population", val="47000000", type(val)="int"
+2020-04-14 23:37:10,594 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:37:10,594 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:37:10,594 - INFO - Inside convert_kv(): key="population", val="47000000", type(val) is: "int"
+2020-04-14 23:37:10,594 - INFO - Inside make_valid_xml_name(). Testing key "population" with attr "{}"
+2020-04-14 23:37:10,594 - INFO - Inside key_is_valid_xml(). Testing "population"
+2020-04-14 23:37:10,594 - INFO - Looping inside convert_dict(): key="totalHospitalBeds", val="500", type(val)="int"
+2020-04-14 23:37:10,595 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:37:10,595 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:37:10,595 - INFO - Inside convert_kv(): key="totalHospitalBeds", val="500", type(val) is: "int"
+2020-04-14 23:37:10,595 - INFO - Inside make_valid_xml_name(). Testing key "totalHospitalBeds" with attr "{}"
+2020-04-14 23:37:10,595 - INFO - Inside key_is_valid_xml(). Testing "totalHospitalBeds"
+2020-04-14 23:37:10,595 - INFO - Looping inside convert_dict(): key="impact", val="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}", type(val)="dict"
+2020-04-14 23:37:10,596 - INFO - Inside make_valid_xml_name(). Testing key "impact" with attr "{}"
+2020-04-14 23:37:10,596 - INFO - Inside key_is_valid_xml(). Testing "impact"
+2020-04-14 23:37:10,596 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 421329, 'casesForVentilatorsByRequestedTime': 168531, 'currentlyInfected': 540, 'dollarsInFlight': 898835, 'hospitalBedsByRequestedTime': -8426410, 'infectionsByRequestedTime': 56177234, 'severeCasesByRequestedTime': 8426585}"
+2020-04-14 23:37:10,596 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="421329", type(val)="int"
+2020-04-14 23:37:10,596 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,596 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:37:10,596 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="421329", type(val) is: "int"
+2020-04-14 23:37:10,597 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,597 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:37:10,597 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="168531", type(val)="int"
+2020-04-14 23:37:10,597 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,597 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:37:10,598 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="168531", type(val) is: "int"
+2020-04-14 23:37:10,598 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,598 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:37:10,598 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="540", type(val)="int"
+2020-04-14 23:37:10,598 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:37:10,598 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:37:10,599 - INFO - Inside convert_kv(): key="currentlyInfected", val="540", type(val) is: "int"
+2020-04-14 23:37:10,599 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:37:10,599 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:37:10,599 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="898835", type(val)="int"
+2020-04-14 23:37:10,599 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:37:10,599 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:37:10,599 - INFO - Inside convert_kv(): key="dollarsInFlight", val="898835", type(val) is: "int"
+2020-04-14 23:37:10,600 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:37:10,600 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:37:10,600 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-8426410", type(val)="int"
+2020-04-14 23:37:10,600 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,600 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:37:10,600 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-8426410", type(val) is: "int"
+2020-04-14 23:37:10,600 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,601 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:37:10,601 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="56177234", type(val)="int"
+2020-04-14 23:37:10,601 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,601 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:37:10,601 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="56177234", type(val) is: "int"
+2020-04-14 23:37:10,601 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,601 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:37:10,602 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="8426585", type(val)="int"
+2020-04-14 23:37:10,602 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,602 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:37:10,602 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="8426585", type(val) is: "int"
+2020-04-14 23:37:10,602 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,602 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:37:10,603 - INFO - Looping inside convert_dict(): key="severeImpact", val="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}", type(val)="dict"
+2020-04-14 23:37:10,603 - INFO - Inside make_valid_xml_name(). Testing key "severeImpact" with attr "{}"
+2020-04-14 23:37:10,603 - INFO - Inside key_is_valid_xml(). Testing "severeImpact"
+2020-04-14 23:37:10,603 - INFO - Inside convert_dict(): obj type is: "dict", obj="{'casesForICUByRequestedTime': 2106646, 'casesForVentilatorsByRequestedTime': 842658, 'currentlyInfected': 2700, 'dollarsInFlight': 4494178, 'hospitalBedsByRequestedTime': -42132750, 'infectionsByRequestedTime': 280886171, 'severeCasesByRequestedTime': 42132925}"
+2020-04-14 23:37:10,603 - INFO - Looping inside convert_dict(): key="casesForICUByRequestedTime", val="2106646", type(val)="int"
+2020-04-14 23:37:10,604 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,604 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:37:10,604 - INFO - Inside convert_kv(): key="casesForICUByRequestedTime", val="2106646", type(val) is: "int"
+2020-04-14 23:37:10,604 - INFO - Inside make_valid_xml_name(). Testing key "casesForICUByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,604 - INFO - Inside key_is_valid_xml(). Testing "casesForICUByRequestedTime"
+2020-04-14 23:37:10,604 - INFO - Looping inside convert_dict(): key="casesForVentilatorsByRequestedTime", val="842658", type(val)="int"
+2020-04-14 23:37:10,604 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,605 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:37:10,605 - INFO - Inside convert_kv(): key="casesForVentilatorsByRequestedTime", val="842658", type(val) is: "int"
+2020-04-14 23:37:10,605 - INFO - Inside make_valid_xml_name(). Testing key "casesForVentilatorsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,605 - INFO - Inside key_is_valid_xml(). Testing "casesForVentilatorsByRequestedTime"
+2020-04-14 23:37:10,605 - INFO - Looping inside convert_dict(): key="currentlyInfected", val="2700", type(val)="int"
+2020-04-14 23:37:10,605 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:37:10,605 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:37:10,606 - INFO - Inside convert_kv(): key="currentlyInfected", val="2700", type(val) is: "int"
+2020-04-14 23:37:10,606 - INFO - Inside make_valid_xml_name(). Testing key "currentlyInfected" with attr "{}"
+2020-04-14 23:37:10,606 - INFO - Inside key_is_valid_xml(). Testing "currentlyInfected"
+2020-04-14 23:37:10,606 - INFO - Looping inside convert_dict(): key="dollarsInFlight", val="4494178", type(val)="int"
+2020-04-14 23:37:10,606 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:37:10,606 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:37:10,607 - INFO - Inside convert_kv(): key="dollarsInFlight", val="4494178", type(val) is: "int"
+2020-04-14 23:37:10,607 - INFO - Inside make_valid_xml_name(). Testing key "dollarsInFlight" with attr "{}"
+2020-04-14 23:37:10,607 - INFO - Inside key_is_valid_xml(). Testing "dollarsInFlight"
+2020-04-14 23:37:10,607 - INFO - Looping inside convert_dict(): key="hospitalBedsByRequestedTime", val="-42132750", type(val)="int"
+2020-04-14 23:37:10,607 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,607 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:37:10,607 - INFO - Inside convert_kv(): key="hospitalBedsByRequestedTime", val="-42132750", type(val) is: "int"
+2020-04-14 23:37:10,608 - INFO - Inside make_valid_xml_name(). Testing key "hospitalBedsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,608 - INFO - Inside key_is_valid_xml(). Testing "hospitalBedsByRequestedTime"
+2020-04-14 23:37:10,608 - INFO - Looping inside convert_dict(): key="infectionsByRequestedTime", val="280886171", type(val)="int"
+2020-04-14 23:37:10,608 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,608 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:37:10,608 - INFO - Inside convert_kv(): key="infectionsByRequestedTime", val="280886171", type(val) is: "int"
+2020-04-14 23:37:10,609 - INFO - Inside make_valid_xml_name(). Testing key "infectionsByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,609 - INFO - Inside key_is_valid_xml(). Testing "infectionsByRequestedTime"
+2020-04-14 23:37:10,609 - INFO - Looping inside convert_dict(): key="severeCasesByRequestedTime", val="42132925", type(val)="int"
+2020-04-14 23:37:10,609 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,609 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:37:10,610 - INFO - Inside convert_kv(): key="severeCasesByRequestedTime", val="42132925", type(val) is: "int"
+2020-04-14 23:37:10,610 - INFO - Inside make_valid_xml_name(). Testing key "severeCasesByRequestedTime" with attr "{}"
+2020-04-14 23:37:10,610 - INFO - Inside key_is_valid_xml(). Testing "severeCasesByRequestedTime"
+2020-04-14 23:37:10,610 - INFO - Logger for requests		POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:10,634 - INFO - 127.0.0.1 - - [14/Apr/2020 23:37:10] "[37mPOST /api/v1/on-covid-19/xml HTTP/1.1[0m" 200 -
+2020-04-14 23:37:23,969 - INFO - Query list result from logs: [<Logs 1>, <Logs 2>, <Logs 3>, <Logs 4>, <Logs 5>, <Logs 6>, <Logs 7>, <Logs 8>, <Logs 9>, <Logs 10>, <Logs 11>, <Logs 12>, <Logs 13>, <Logs 14>, <Logs 15>, <Logs 16>, <Logs 17>, <Logs 18>, <Logs 19>, <Logs 20>, <Logs 21>, <Logs 22>, <Logs 23>, <Logs 24>, <Logs 25>, <Logs 26>, <Logs 27>, <Logs 28>, <Logs 29>, <Logs 30>, <Logs 31>, <Logs 32>, <Logs 33>, <Logs 34>, <Logs 35>, <Logs 36>, <Logs 37>, <Logs 38>, <Logs 39>, <Logs 40>, <Logs 41>, <Logs 42>, <Logs 43>, <Logs 44>, <Logs 45>, <Logs 46>, <Logs 47>]
+2020-04-14 23:37:23,969 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02
+2020-04-14 23:37:23,969 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:23,970 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.05	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.14	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,971 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:23,972 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:37:23,973 - INFO - Query result from logs: GET		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:37:23,973 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:23,973 - INFO - Query result from logs: GET		/api/v1/on-covid-19/xml		200		0.06	ms
+2020-04-14 23:37:23,973 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.01	ms
+2020-04-14 23:37:23,973 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:23,974 - INFO - 127.0.0.1 - - [14/Apr/2020 23:37:23] "[37mGET /api/v1/on-covid-19/logs HTTP/1.1[0m" 200 -
+2020-04-14 23:37:46,731 - INFO - Query list result from logs: [<Logs 1>, <Logs 2>, <Logs 3>, <Logs 4>, <Logs 5>, <Logs 6>, <Logs 7>, <Logs 8>, <Logs 9>, <Logs 10>, <Logs 11>, <Logs 12>, <Logs 13>, <Logs 14>, <Logs 15>, <Logs 16>, <Logs 17>, <Logs 18>, <Logs 19>, <Logs 20>, <Logs 21>, <Logs 22>, <Logs 23>, <Logs 24>, <Logs 25>, <Logs 26>, <Logs 27>, <Logs 28>, <Logs 29>, <Logs 30>, <Logs 31>, <Logs 32>, <Logs 33>, <Logs 34>, <Logs 35>, <Logs 36>, <Logs 37>, <Logs 38>, <Logs 39>, <Logs 40>, <Logs 41>, <Logs 42>, <Logs 43>, <Logs 44>, <Logs 45>, <Logs 46>, <Logs 47>]
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06
+2020-04-14 23:37:46,731 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.01
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06	ms
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.05	ms
+2020-04-14 23:37:46,732 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.14	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.02	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		400		0.0	ms
+2020-04-14 23:37:46,733 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		400		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: GET		/api/v1/on-covid-19/xml		405		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: POST		/api/v1/on-covid-19/json		200		0.0	ms
+2020-04-14 23:37:46,734 - INFO - Query result from logs: GET		/api/v1/on-covid-19/xml		200		0.06	ms
+2020-04-14 23:37:46,735 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.01	ms
+2020-04-14 23:37:46,735 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.03	ms
+2020-04-14 23:37:46,736 - INFO - 127.0.0.1 - - [14/Apr/2020 23:37:46] "[37mPOST /api/v1/on-covid-19/logs HTTP/1.1[0m" 200 -

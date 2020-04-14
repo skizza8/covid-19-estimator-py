@@ -3,15 +3,14 @@ import asyncio
 
 from src.estimator import estimator
 import audits.test_utils as test_utils
-
 cases = [
-    ["days", "ch-1"],
-    ["weeks", "ch-1"],
-    ["months", "ch-1"]
+    ["days", "ch-3"],
+    ["weeks", "ch-3"],
+    ["months", "ch-3"]
 ]
 
 
-def test_challenge1():
+def test_challenge3():
   for [period_type, challenge] in cases:
     loop = asyncio.get_event_loop()
     input = loop.run_until_complete(

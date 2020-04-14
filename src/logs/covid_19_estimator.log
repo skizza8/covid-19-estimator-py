@@ -281,3 +281,9 @@
 2020-04-14 08:41:38,446 - INFO - Query result from logs: POST		/api/v1/on-covid-19/xml		200		0.06	ms
 2020-04-14 08:41:38,446 - INFO - 127.0.0.1 - - [14/Apr/2020 08:41:38] "[37mGET /api/v1/on-covid-19/logs HTTP/1.1[0m" 200 -
 2020-04-14 09:38:35,217 - INFO -  * Detected change in 'e:\\projects\\Andela Facebook SDG challenge\\Python_Assesment\\covid-19-estimator-py\\src\\run.py', reloading
+2020-04-14 13:01:44,670 - INFO - impact_currently_infected: 6740
+2020-04-14 13:01:44,714 - INFO - severe_impact_currently_infected: 33700
+2020-04-14 13:01:44,714 - INFO - {'casesForICUByRequestedTime': 101, 'casesForVentilatorsByRequestedTime': 40, 'currentlyInfected': 6740, 'dollarsInFlight': 3594, 'hospitalBedsByRequestedTime': 1478, 'infectionsByRequestedTime': 13480, 'severeCasesByRequestedTime': 2022}
+2020-04-14 13:01:44,714 - INFO - {'casesForICUByRequestedTime': 505, 'casesForVentilatorsByRequestedTime': 202, 'currentlyInfected': 33700, 'dollarsInFlight': 17973, 'hospitalBedsByRequestedTime': -6610, 'infectionsByRequestedTime': 67400, 'severeCasesByRequestedTime': 10110}
+2020-04-14 13:01:44,714 - INFO - Logger for requests		POST		/api/v1/on-covid-19		200		0.05	ms
+2020-04-14 13:01:44,792 - INFO - 127.0.0.1 - - [14/Apr/2020 13:01:44] "[37mPOST /api/v1/on-covid-19 HTTP/1.1[0m" 200 -

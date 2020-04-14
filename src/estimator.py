@@ -1,7 +1,7 @@
 from flask import Flask, request, Response, jsonify, make_response, g
 from flask_restful import Resource, Api
 from json import dumps, loads
-from src.logging_service import Logger
+from logging_service import Logger
 import datetime
 from functools import wraps
 import math
@@ -521,7 +521,8 @@ def estimator(input_data):
                 the_logger.log_information(severe_impact.get_json())
 
 
-                return jsonify({'data': data, 'impact':impact.get_json(), 'severeImpact':severe_impact.get_json()})
+                output = jsonify({'data': data, 'impact':impact.get_json(), 'severeImpact':severe_impact.get_json()})
+                return output.get_json()
 
                 
     except Exception as ex:

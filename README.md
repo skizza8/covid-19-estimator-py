@@ -1,4 +1,4 @@
-# #Python API to estimated Impact of Covid-19
+# #Python API to estimate Impact of Covid-19
 
 > An overly simplified COVID-19 infection impact estimator Python Rest API
 

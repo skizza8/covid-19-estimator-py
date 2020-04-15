@@ -1,4 +1,4 @@
-# #BuildForSDG Cohort-1 Python Assessment
+# #Python API to estimated Impact of Covid-19
 
 > An overly simplified COVID-19 infection impact estimator Python Rest API
 

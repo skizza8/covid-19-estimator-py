@@ -1,4 +1,4 @@
-﻿aniso8601==8.0.0
+aniso8601==8.0.0
 app==0.0.1
 appdirs==1.4.3
 async-generator==1.10
@@ -20,7 +20,7 @@ distlib==0.3.0
 entrypoints==0.3
 et-xmlfile==1.0.1
 filelock==3.0.12
-Flask==1.1.2
+Flask==2.2.5
 Flask-RESTful==0.3.8
 Flask-SQLAlchemy==2.4.1
 Flask-Testing==0.8.0
